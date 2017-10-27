@@ -1,0 +1,34 @@
+/*
+* @Author: dyy
+* @Date:   2017-10-25 15:37:36
+* @Last Modified by:   admin
+* @Last Modified time: 2017-10-27 15:11:53
+*/
+.view a {
+            display: block;
+            text-decoration: none;
+        }
+        .view img {
+            display: block;
+            width: 100%;
+            height: 750px;
+        }
+        .view {
+            width: 100%;
+            overflow: hidden;
+            z-index: -1;
+            position: absolute !important;
+        }
+        .view ul {
+            overflow: hidden;
+            list-style: none;
+            position: relative;
+        }
+        .view li {
+            float: left;
+        }
+        @media screen and (max-width:750px) {
+          .view img {
+            height: 200px;
+          }
+        }
